@@ -1,6 +1,6 @@
 # Start process with `sudo make`
 DAEMON_NAME=test_daemon
-STARTUP_FILE=/opt/echobot-example/bot.py  # Set path to startup file of your project
+STARTUP_FILE=/opt/test_daemon/main.py  # Set path to startup file of your project
 EXECUTOR=python3  # Set start utility. Use full path to bin for virtual environments
 RESTART=on-abort  # One of [always, on-abort]. With `on-abort` daemon will not start after manual or normal exit.
 
